@@ -21,7 +21,7 @@ namespace RecordTypesWithLinq
             return njson;
         }
 
-        public static string JsonProcess(string json)
+        private static string JsonProcess(string json)
         {
             concurrentBag.Add(json);
             return json;

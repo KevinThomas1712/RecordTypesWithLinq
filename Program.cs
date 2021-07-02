@@ -46,7 +46,6 @@ namespace RecordTypesWithLinq
                 ErrorsJumble.JsonFake(fa.Summary);
                 Console.WriteLine(fa);
             }
-
         }
     }
 }

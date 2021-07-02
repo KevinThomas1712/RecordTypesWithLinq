@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mwqZC2vw57i/r/rN6fltRoM09yslynNsIadnzXhzSAkfTpBDVLL0EaqECZQm2MQDQcTDsAKv7/pw+qjLIF0aEg==",
+  "dgSpecHash": "vvz09cdfFu+m0uprcMMCfio3fBhMAPvZDjc2DHIoL8+GVKhfEuWW502c/EbrTpD3IdXcwWSfNIlWptV6cUjeAA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\thomask4\\source\\repos\\RecordTypesWithLinq\\RecordTypesWithLinq\\RecordTypesWithLinq.csproj",
+  "projectFilePath": "C:\\dev\\Wildfire\\RecordTypesWithLinq\\RecordTypesWithLinq.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

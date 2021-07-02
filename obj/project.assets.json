@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thomask4\\source\\repos\\RecordTypesWithLinq\\RecordTypesWithLinq\\RecordTypesWithLinq.csproj",
+      "projectUniqueName": "C:\\dev\\Wildfire\\RecordTypesWithLinq\\RecordTypesWithLinq.csproj",
       "projectName": "RecordTypesWithLinq",
-      "projectPath": "C:\\Users\\thomask4\\source\\repos\\RecordTypesWithLinq\\RecordTypesWithLinq\\RecordTypesWithLinq.csproj",
+      "projectPath": "C:\\dev\\Wildfire\\RecordTypesWithLinq\\RecordTypesWithLinq.csproj",
       "packagesPath": "C:\\Users\\thomask4\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thomask4\\source\\repos\\RecordTypesWithLinq\\RecordTypesWithLinq\\obj\\",
+      "outputPath": "C:\\dev\\Wildfire\\RecordTypesWithLinq\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
