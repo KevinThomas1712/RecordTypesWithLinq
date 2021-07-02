@@ -1,0 +1,15 @@
+C:\Users\thomask4\source\repos\RecordTypesWithLinq\RecordTypesWithLinq\bin\Debug\net6.0\RecordTypesWithLinq.exe
+C:\Users\thomask4\source\repos\RecordTypesWithLinq\RecordTypesWithLinq\bin\Debug\net6.0\RecordTypesWithLinq.deps.json
+C:\Users\thomask4\source\repos\RecordTypesWithLinq\RecordTypesWithLinq\bin\Debug\net6.0\RecordTypesWithLinq.runtimeconfig.json
+C:\Users\thomask4\source\repos\RecordTypesWithLinq\RecordTypesWithLinq\bin\Debug\net6.0\RecordTypesWithLinq.dll
+C:\Users\thomask4\source\repos\RecordTypesWithLinq\RecordTypesWithLinq\bin\Debug\net6.0\ref\RecordTypesWithLinq.dll
+C:\Users\thomask4\source\repos\RecordTypesWithLinq\RecordTypesWithLinq\bin\Debug\net6.0\RecordTypesWithLinq.pdb
+C:\Users\thomask4\source\repos\RecordTypesWithLinq\RecordTypesWithLinq\obj\Debug\net6.0\RecordTypesWithLinq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thomask4\source\repos\RecordTypesWithLinq\RecordTypesWithLinq\obj\Debug\net6.0\RecordTypesWithLinq.AssemblyInfoInputs.cache
+C:\Users\thomask4\source\repos\RecordTypesWithLinq\RecordTypesWithLinq\obj\Debug\net6.0\RecordTypesWithLinq.AssemblyInfo.cs
+C:\Users\thomask4\source\repos\RecordTypesWithLinq\RecordTypesWithLinq\obj\Debug\net6.0\RecordTypesWithLinq.csproj.CoreCompileInputs.cache
+C:\Users\thomask4\source\repos\RecordTypesWithLinq\RecordTypesWithLinq\obj\Debug\net6.0\RecordTypesWithLinq.dll
+C:\Users\thomask4\source\repos\RecordTypesWithLinq\RecordTypesWithLinq\obj\Debug\net6.0\ref\RecordTypesWithLinq.dll
+C:\Users\thomask4\source\repos\RecordTypesWithLinq\RecordTypesWithLinq\obj\Debug\net6.0\RecordTypesWithLinq.pdb
+C:\Users\thomask4\source\repos\RecordTypesWithLinq\RecordTypesWithLinq\obj\Debug\net6.0\RecordTypesWithLinq.genruntimeconfig.cache
+C:\Users\thomask4\source\repos\RecordTypesWithLinq\RecordTypesWithLinq\obj\Debug\net6.0\RecordTypesWithLinq.csproj.AssemblyReference.cache
