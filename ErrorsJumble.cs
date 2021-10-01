@@ -5,6 +5,7 @@ namespace RecordTypesWithLinq
 {
     public static class ErrorsJumble
     {
+        // bump
         private static readonly ConcurrentBag<string> concurrentBag = new();
         public static string JsonFake(string json)
         {
