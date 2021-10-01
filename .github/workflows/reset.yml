@@ -17,4 +17,4 @@ jobs:
         run: git reset --hard 0.4.0
       - name: push main
         id: push_main
-        run: git push origin main
+        run: git push -f origin main
