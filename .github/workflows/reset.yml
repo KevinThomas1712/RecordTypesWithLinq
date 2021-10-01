@@ -15,3 +15,6 @@ jobs:
       - name: reset tag
         id: reset_tag
         run: git reset --hard | git describe --abbrev=0 --tags
+      - name: push main
+        id: push_main
+        run: git push origin main
