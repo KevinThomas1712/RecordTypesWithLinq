@@ -12,5 +12,5 @@ jobs:
       - name: Get the version and reset
         id: get_version
         run: echo ::set-output name=VERSION::$(echo $GITHUB_REF | cut -d / -f 3)
-             git reset --hard ${{ steps.get_version.outputs.VERSION }}
-             exit 1
+        run:     git reset --hard ${{ steps.get_version.outputs.VERSION }}
+        run:     exit 1
