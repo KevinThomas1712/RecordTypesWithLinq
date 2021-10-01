@@ -1,0 +1,17 @@
+name: 'tag'
+on:
+   workflow_run:
+     workflows: ["Reset to last tag"]
+     types: [completed]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'failure' }}
+    steps:
+    - uses: actions/checkout@master
+    - name: Bump version and push tag
+      uses: anothrNick/github-tag-action@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        REPO_OWNER: anothrNick
