@@ -11,4 +11,5 @@ jobs:
       - uses: actions/checkout@v2
       - name: reset tag
         id: reset_tag
-        run: git reset --hard | git describe --abbrev=0 --tags
+        run: git fetch --tags 
+             git reset --hard | git describe --abbrev=0 --tags
