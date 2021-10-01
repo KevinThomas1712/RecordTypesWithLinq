@@ -9,6 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: get tags
+        id: get_tags
+        run: git fetch --tags 
       - name: reset tag
         id: reset_tag
-        run: git fetch --tags && git reset --hard | git describe --abbrev=0 --tags
+        run: git reset --hard | git describe --abbrev=0 --tags
