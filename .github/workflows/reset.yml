@@ -9,9 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Get the version
-        id: get_version
-        run: echo ::set-output name=VERSION::$(echo $GITHUB_REF | cut -d / -f 3)
       - name: reset tag
         id: reset_tag
-        run: git reset --hard ${{ steps.get_version.outputs.VERSION }}
+        run: git reset --hard | git describe --abbrev=0 --tags
