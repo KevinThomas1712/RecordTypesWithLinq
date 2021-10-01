@@ -24,6 +24,7 @@
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "http://nuget.lexisnexis.com/nuget/api/v2/": {},
           "http://opscert-artifactory.route53.lexis.com/artifactory/api/nuget/uk-nuget": {},
           "https://api.nuget.org/v3/index.json": {},

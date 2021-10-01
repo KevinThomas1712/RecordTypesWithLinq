@@ -1,0 +1,21 @@
+name: .NET
+
+on:
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 5.0.301
+    - name: Install dotnet format
+      run: dotnet tool install dotnet-format -g
+    - name: Format
+      run: dotnet format CodeAnalysis.sln --fix-whitespace --fix-style info --fix-analyzers info  --verbosity diagnostic --check
