@@ -14,7 +14,7 @@ jobs:
         run: git fetch --prune --unshallow
       - name: reset tag
         id: reset_tag
-        run: git reset --hard 0.4.0
+        run: git reset --hard | git describe --abbrev=0 --tags
       - name: push main
         id: push_main
         run: git push -f origin main
