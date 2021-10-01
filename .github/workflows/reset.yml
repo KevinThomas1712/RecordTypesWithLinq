@@ -1,0 +1,24 @@
+name: Reset to last tag
+on: push
+    branches:
+      - main
+jobs:
+  reset-to-last-tag:
+    name: "Reset to last tag"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 5.0.301
+      - name: Install dotnet format
+        run: dotnet tool install dotnet-format -g
+      - name: Format
+        run: dotnet format CodeAnalysis.sln --fix-whitespace --fix-style info --fix-analyzers info  --verbosity diagnostic --check
+      - name: Get the version and reset
+        if: ${{ failure() }}
+        id: get_version
+        run: echo ::set-output name=VERSION::$(echo $GITHUB_REF | cut -d / -f 3)
+             git reset --hard ${{ steps.get_version.outputs.VERSION }}
+             exit 1
