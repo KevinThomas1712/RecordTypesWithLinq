@@ -17,7 +17,7 @@ jobs:
         run: echo "GIT_TAG=`echo $(git describe --tags --abbrev=0)`" >> $GITHUB_ENV
       - name: reset tag
         id: reset_tag
-        run: git reset --hard $GITHUB_ENV.GIT_TAG
+        run: git reset --hard echo $GITHUB_ENV.GIT_TAG
       - name: push main
         id: push_main
         run: git push -f origin main
