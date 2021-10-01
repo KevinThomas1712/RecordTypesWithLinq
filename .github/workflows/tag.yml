@@ -4,11 +4,12 @@ on:
     branches:
       - main
 jobs:
-  tag:
+  build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - uses: christophebedard/tag-version-commit@v1
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        version_tag_prefix: 'v'
+    - uses: actions/checkout@master
+    - name: Bump version and push tag
+      uses: anothrNick/github-tag-action@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        REPO_OWNER: anothrNick
